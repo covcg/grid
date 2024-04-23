@@ -1,0 +1,39 @@
+{
+  "name": "@covcg/grid",
+  "version": "0.0.1",
+  "description": "simple but powerfull grid component library",
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "files": [
+    "dist"
+  ],
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "rollup": "rollup -c",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/covcg/grid.git"
+  },
+  "keywords": [
+    "grid",
+    "react",
+    "dnd"
+  ],
+  "type": "module",
+  "author": "covcg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/covcg/grid/issues"
+  },
+  "homepage": "https://github.com/covcg/grid#readme",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.6",
+    "rollup": "^4.16.2",
+    "rollup-plugin-dts": "^6.1.0",
+    "tslib": "^2.6.2"
+  }
+}
